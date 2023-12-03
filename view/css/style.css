@@ -1,0 +1,604 @@
+*{
+    box-sizing: border-box;
+}
+.boxcenter{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.row{
+    float: left;
+    width: 100%;
+}
+
+.mb{
+    margin-bottom: 20px;
+}
+
+.mb10{
+    margin-bottom: 10px;
+}
+
+.mr{
+    margin-right: 2%;
+}
+
+.demo{
+    background-color: antiquewhite;
+    min-height: 100px;
+}
+
+.logo{
+    display: flex;
+    text-align: center;
+}
+
+.logo img{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 360px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 30px;
+}
+
+.logo h1{
+    padding-left: 15vw;
+    color: rgb(255, 68, 0);
+    margin: 10px 20px;
+    text-align: center;
+}
+
+.menu{
+    background-color: rgb(48, 48, 48);
+    border-radius: 5px;
+    color: white;
+    display: flex;
+}
+
+.boxtrai{
+    float: left;
+    width: 74%;
+}
+
+.boxphai{
+    float: left;
+    width: 24%;
+}
+
+.boxtrai{
+    float: left;
+    width: 74%;
+}
+
+.boxphai{
+    float: left;
+    width: 24%;
+}
+
+.catalog{
+    display:flex;
+    gap:30px;
+}
+.box_title{
+    
+    background:#EEEE;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-left:1px solid #b6adad;
+    border-right:1px solid #ccc;
+    padding:10px;
+    color:#333;
+    height:30px;
+    align-items:center;
+   
+}
+.box_content{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 30px;
+    /* border-left:1px solid #ccc;
+    border-right:1px solid #ccc;
+    border-bottom:1px solid #ccc; */
+    /* border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px; */
+    min-height:200px;
+    padding:20px;
+}
+.ndsp p{
+    margin: 0px;
+    font-size: 20px;
+}
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.quantity input {
+    width: 30px;
+    text-align: center;
+}
+
+.quantity button {
+    cursor: pointer;
+}
+
+.box_content3{
+    border-left:1px solid #ccc;
+    border-right:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    /* border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px; */
+    min-height:200px;
+    padding:20px;
+}
+
+.box_content2{
+    padding:20px;
+    background:#EEEE;
+    border-left:1px solid #ccc;
+    border-right:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    min-height:200px;
+     
+}
+
+.footer{
+    background-color: rgb(51, 47, 47);
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid rgb(10, 43, 32);
+}
+
+.footer h1{
+    font-size: 1vw;
+}
+
+.footer h2{
+    padding-left: 100px;
+}
+.footer p{
+    font-size: 0.7vw;
+    padding: 10px 20px;
+}
+
+.footer_content{
+    display: flex;
+}
+.boxtitle{
+    color: #333;
+    padding: 10px;
+    background-color: #eee;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.boxcontent{
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.boxcontent2{
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    background-color: #eee;
+}
+
+.boxfooter{
+    padding: 10px;
+    background-color: #eee;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.imgsp p img{
+    border: 1px solid gray;
+}
+.imgsp p img:hover{
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+.imgsp{
+    display: flex;
+    margin-right: 100px;
+}
+
+/* banner */
+.banner {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+    min-height: 250px;
+}
+.banner-slide {
+    display: none;
+    width: 100%;
+}
+.banner img {
+    width: 100%;
+    height: auto;
+    height: 250px;
+}
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+.prev {
+    left: 10px;
+}
+.next {
+    right: 10px;
+}
+
+.boxsp{
+    float: left;
+    width: 32%;
+    min-height: 300px;
+    border: 1px #eee solid;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.boxsp .img{
+    text-align: center;
+    min-height: 200px;
+}
+
+.img img{
+    height: 200px;
+}
+
+.boxsp .p{
+    font-size: 200px;
+    text-align: center;
+}
+
+.price{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    padding: 20px;
+}
+
+.menu ul{
+    width: 100%;
+    padding: 0 15px;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline;
+    padding: 0 20px;
+}
+
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.menu ul li a:hover{
+    color: #ccc;
+    text-decoration: underline;
+}
+
+/*Box tài khoản*/
+
+.formtaikhoan{
+    line-height: 150%;
+}
+
+.formtaikhoan input[type="text"],
+.formtaikhoan input[type="email"],
+.formtaikhoan input[type="password"],
+.formcontent input[type="text"]{
+    width: 100%;
+    border: 1px #ccc solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.formtaikhoan input[type="checkbox"]{
+    border-radius: 5px;
+}
+
+.formtaikhoan input[type="submit"],
+.formtaikhoan input[type="reset"],
+.formcontent input[type="submit"],
+.formcontent input[type="reset"],
+.formcontent input[type="button"]{
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px #ccc solid;
+}
+
+.formtaikhoan input[type="submit"]:hover,
+.formcontent input[type="submit"]:hover,
+.formcontent input[type="reset"]:hover,
+.formcontent input[type="button"]:hover{
+    background-color: #ccc;
+}
+
+.formtaikhoan li a{
+    color: rgb(7, 25, 25);
+    text-decoration: none;
+    
+}
+.formtaikhoan li {
+    list-style: none;
+}
+
+.formtaikhoan li a:hover{
+    color: teal;
+    text-decoration: underline;
+}
+
+/* memudoc*/
+
+.menudoc ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menudoc ul li{
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px #ccc solid;
+}
+
+.menudoc ul li a{
+    color: #666;
+    text-decoration: none;
+}
+
+.menudoc ul li:hover{
+    background-color: #ccc;
+}
+
+.searbox input[type="text"]{
+    width: 60%;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+}
+.searbox input[type="submit"]{
+    padding: 5px;
+    background-color: #fff;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+}
+.searbox input[type="submit"]:hover{
+    background-color: #ccc;
+}
+.searbox input[type="text"]:hover{
+    border: 1px black solid;
+}
+
+.top10 img{
+    width: 20%;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px #ccc solid;
+}
+
+.top10 a{
+    color: #666;
+    text-decoration: none;
+}
+
+.top10 a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+
+.header {
+    border: 1px #000 solid;
+    font-size: 0.8vw;
+    color: rgb(154, 70, 164);
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+.header h1{
+    margin: 10px 20px;
+}
+
+/*ADMIN*/
+
+.formcontent{
+    padding: 20px 0px;
+}
+
+.formdsloai table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.formdsloai table th{
+    padding: 10px 20px;
+    background-color: #ccc;
+}
+
+.formdsloai td{
+    padding: 10px 20px;
+    border: 1px #ccc solid;   
+}
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+
+  .mySlides img{
+    width: 100%;
+    border-radius: 30px;
+    object-fit: fill;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }/*end slideshow*/
+
+  .spct img{
+    width: 50%;
+  }
+
+  .content_gioithieu{
+    display: flex;
+  }
+
+  .content_gioithieu p{
+    text-align: center;
+    padding: 65px;
+  }
+
+  .contact-section {
+    padding: 20px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #555;
+  }
+
+  .boxcontentt{
+    width: 100%;
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .icon img {
+    font-size: 10px; /* Điều chỉnh kích thước của biểu tượng */
+  }
